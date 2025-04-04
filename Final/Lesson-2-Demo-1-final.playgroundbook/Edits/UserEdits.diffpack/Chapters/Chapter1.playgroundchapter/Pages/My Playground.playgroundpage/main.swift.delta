@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let doesOneEqualTwo = 1 == 2
+let doesOneNotEqualTwo = 1 != 2
+
+let isOneGreaterThanTwo = 1 &gt; 2
+let isOneLessThanTwo = 1 &lt; 2
+
+let firstName = "Brian"
+let lastName = "Moakley"
+let and = firstName == "Brian" &amp;&amp; lastName == "Moakley"
+let or = firstName == "Jim" || lastName == "Moakley"
+
+let currency = 100
+let confusing = firstName == "Jim" || (lastName == "Moakley" &amp;&amp; currency &gt;= 100)
+
+let animal = "Snake"
+if animal == "Cat" || animal == "Dog" {
+    print("Animal is a house pet.")
+} else if animal == "Snake" { 
+    print("Animals could be a house pet.")
+} else {
+    print("Animal is not a house pet.")
+} 
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 607}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
